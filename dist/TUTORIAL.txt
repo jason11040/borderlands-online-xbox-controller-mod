@@ -1,0 +1,48 @@
+BORDERLANDS ONLINE - XBOX CONTROLLER MOD
+
+INSTALL
+1. Download XboxControllerMod-1.0.zip from the GitHub release.
+2. Right-click the ZIP, choose Properties, and select Unblock if shown.
+   Click Apply, then extract the ZIP into its own folder.
+3. Close Borderlands Online and connect your Xbox/XInput controller.
+4. Open the extracted folder in Terminal and run:
+
+   powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1 -GameDirectory "C:\Path\To\Game"
+
+   Replace C:\Path\To\Game with the folder containing BOL.exe.
+5. Launch the game. Release the sticks, triggers and buttons to activate.
+
+PLAY
+Left stick: move. Right stick: look. RT: shoot. LT: aim.
+A: jump. B: crouch. X: interact with a target, otherwise reload.
+Y: change weapon. LB: skill. RB: grenade.
+Left stick click: sprint. Right stick click: melee.
+D-pad: weapon slots. View/Back: inventory. Menu/Start: pause/back.
+
+MENUS AND INVENTORY
+Move the cursor with the left stick; use the right stick for precision.
+A clicks; hold A to drag items. X opens item menus. B goes back.
+LT/RT scroll. Hold LB for Shift. RB moves to the next text field.
+Click a text field, then Y to open the keyboard. D-pad selects a key,
+A types, X deletes, LB toggles Shift, Start submits, and B/Y closes.
+
+SETTINGS
+Press F10 or hold View/Back + Menu/Start for half a second.
+Adjust sensitivity and deadzones, rebind buttons, then click Save.
+The Game menus tab opens skills, quests, maps, chat and other menus.
+If controller input is disabled, use F10 to enable it again.
+
+REMOVE
+Close the game. In the extracted mod folder run:
+   powershell -NoProfile -ExecutionPolicy Bypass -File .\uninstall.ps1
+Keep this folder: it contains your installation record and backups.
+
+NOTES
+Requires the compatible Windows Unity 4.6 Borderlands Online client.
+This is an initial preview: automated checks pass; Xbox hardware and
+individual menus still need an in-game check. Movement uses the game's
+eight directions; camera and cursor input are analog. Menus use a cursor.
+If the controller is unresponsive, focus the game window and release all
+controls, then check the controller slot in F10 settings. If you use a
+separate controller-to-keyboard mapper, disable its game profile to avoid
+duplicate input. Installation does not require the Creative mod.

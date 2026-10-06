@@ -1,0 +1,11 @@
+backups/
+installation.json
+*.log
+*.ini
+*.ini.previous
+*.tmp
+*.zip
+tests/*.dll
+tests/*.exe
+tests/installer-*/
+tests/*.inspected.cs
